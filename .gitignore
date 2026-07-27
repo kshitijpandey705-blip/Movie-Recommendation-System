@@ -1,7 +1,7 @@
 venv/
 __pycache__/
 *.pyc
-.ipynb_cheackpoints/
+.ipynb_checkpoints/
 .env
 
 data/ratings.csv
