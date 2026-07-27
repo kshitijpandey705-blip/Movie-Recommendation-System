@@ -100,8 +100,7 @@ Improve recommendation accuracy
 Add personalized recommendations
 
 👨‍💻 Author
-
-Abhinav Tripathi
+Kshitij Pandey
 
 GitHub:
 (YOUR GITHUB PROFILE LINK)
