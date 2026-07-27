@@ -1,0 +1,642 @@
+/* ===========================================================
+   CineMatch AI Pro - Premium UI
+   Developer : Abhinav Tripathi
+===========================================================*/
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html,
+body,
+[class*="css"]{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===========================
+BACKGROUND
+=========================== */
+
+.stApp{
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #111827,
+        #1f2937
+    );
+
+    color:white;
+
+}
+
+
+/* ===========================
+REMOVE STREAMLIT DEFAULT
+=========================== */
+
+header{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+#MainMenu{
+    visibility:hidden;
+}
+
+
+/* ===========================
+MAIN CONTAINER
+=========================== */
+
+.main{
+
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom:2rem;
+
+}
+
+
+
+/* ===========================
+TITLE
+=========================== */
+
+h1{
+
+    font-size:3rem !important;
+
+    font-weight:800;
+
+    text-align:center;
+
+    color:white;
+
+    margin-bottom:10px;
+
+}
+
+
+h2{
+
+    color:white;
+
+    font-weight:700;
+
+}
+
+
+h3{
+
+    color:white;
+
+}
+
+
+
+/* ===========================
+PARAGRAPH
+=========================== */
+
+p{
+
+    color:#d1d5db;
+
+}
+
+
+
+/* ===========================
+SIDEBAR
+=========================== */
+
+[data-testid="stSidebar"]{
+
+    background:#111827;
+
+    border-right:1px solid rgba(255,255,255,0.05);
+
+}
+
+
+
+[data-testid="stSidebar"] h1{
+
+    color:white;
+
+}
+
+
+[data-testid="stSidebar"] h2{
+
+    color:white;
+
+}
+
+
+
+[data-testid="stSidebar"] h3{
+
+    color:white;
+
+}
+
+
+
+/* ===========================
+BUTTON
+=========================== */
+
+.stButton>button{
+
+    width:100%;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:linear-gradient(
+        90deg,
+        #2563eb,
+        #3b82f6
+    );
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    transition:0.4s;
+
+    box-shadow:
+        0px 10px 25px rgba(59,130,246,.35);
+
+}
+
+
+.stButton>button:hover{
+
+    transform:translateY(-3px);
+
+    background:linear-gradient(
+        90deg,
+        #1d4ed8,
+        #2563eb
+    );
+
+}
+
+
+
+/* ===========================
+SELECT BOX
+=========================== */
+
+div[data-baseweb="select"]{
+
+    border-radius:15px;
+
+}
+
+
+
+/* ===========================
+TEXT INPUT
+=========================== */
+
+input{
+
+    border-radius:12px !important;
+
+}
+
+
+
+/* ===========================
+METRIC CARDS
+=========================== */
+
+[data-testid="metric-container"]{
+
+    background:rgba(255,255,255,.06);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:20px;
+
+    transition:.3s;
+
+    backdrop-filter:blur(12px);
+
+}
+
+
+[data-testid="metric-container"]:hover{
+
+    transform:translateY(-5px);
+
+    border:1px solid #3b82f6;
+
+}
+
+
+
+/* ===========================
+MOVIE CARD
+=========================== */
+
+.movie-card{
+
+    background:rgba(255,255,255,.06);
+
+    border-radius:20px;
+
+    padding:22px;
+
+    margin-bottom:25px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,.30);
+
+}
+
+
+.movie-card:hover{
+
+    transform:translateY(-8px);
+
+    border:1px solid #2563eb;
+
+    box-shadow:
+        0 15px 40px rgba(37,99,235,.35);
+
+}
+
+
+
+/* Movie Title */
+
+.movie-card h3{
+
+    color:white;
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+
+
+/* Movie Info */
+
+.movie-card p{
+
+    font-size:15px;
+
+    color:#d1d5db;
+
+    margin-bottom:8px;
+
+}
+
+
+
+/* Rating Badge */
+
+.rating-badge{
+
+    display:inline-block;
+
+    padding:8px 15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-top:8px;
+
+    margin-bottom:12px;
+
+}
+/* ===========================================================
+   TABLE
+=========================================================== */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(10px);
+
+}
+
+
+/* ===========================================================
+   PLOTLY CHART
+=========================================================== */
+
+.js-plotly-plot{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    background:rgba(255,255,255,.04);
+
+    padding:12px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    margin-top:12px;
+
+    margin-bottom:20px;
+
+}
+
+
+/* ===========================================================
+   DIVIDER
+=========================================================== */
+
+hr{
+
+    border:none;
+
+    height:1px;
+
+    background:rgba(255,255,255,.08);
+
+    margin-top:35px;
+
+    margin-bottom:35px;
+
+}
+
+
+/* ===========================================================
+   INFO / SUCCESS BOX
+=========================================================== */
+
+.stAlert{
+
+    border-radius:15px;
+
+}
+
+
+/* ===========================================================
+   SCROLLBAR
+=========================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111827;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563eb;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#3b82f6;
+
+}
+
+
+/* ===========================================================
+   CARD ANIMATION
+=========================================================== */
+
+.movie-card{
+
+    animation:fadeUp .45s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(18px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+
+/* ===========================================================
+   IMAGE
+=========================================================== */
+
+img{
+
+    border-radius:16px;
+
+}
+
+
+/* ===========================================================
+   CAPTION
+=========================================================== */
+
+.stCaption{
+
+    color:#9ca3af;
+
+}
+
+
+/* ===========================================================
+   MARKDOWN LINKS
+=========================================================== */
+
+a{
+
+    color:#60a5fa;
+
+    text-decoration:none;
+
+}
+
+a:hover{
+
+    color:white;
+
+}
+
+
+/* ===========================================================
+   EXPANDER
+=========================================================== */
+
+.streamlit-expanderHeader{
+
+    font-weight:600;
+
+    color:white;
+
+}
+
+
+/* ===========================================================
+   HERO SECTION
+=========================================================== */
+
+.hero-box{
+
+    background:linear-gradient(
+        135deg,
+        rgba(37,99,235,.35),
+        rgba(17,24,39,.95)
+    );
+
+    padding:40px;
+
+    border-radius:24px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    backdrop-filter:blur(12px);
+
+}
+
+
+.hero-title{
+
+    font-size:48px;
+
+    font-weight:800;
+
+    color:white;
+
+    margin-bottom:12px;
+
+}
+
+
+.hero-subtitle{
+
+    font-size:18px;
+
+    color:#d1d5db;
+
+}
+
+
+/* ===========================================================
+   FOOTER
+=========================================================== */
+
+.footer{
+
+    margin-top:60px;
+
+    padding:25px;
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    color:#9ca3af;
+
+    font-size:14px;
+
+}
+
+
+/* ===========================================================
+   RESPONSIVE
+=========================================================== */
+
+@media (max-width:900px){
+
+    h1{
+
+        font-size:2rem !important;
+
+    }
+
+    .movie-card{
+
+        padding:16px;
+
+    }
+
+    .hero-box{
+
+        padding:25px;
+
+    }
+
+    .hero-title{
+
+        font-size:32px;
+
+    }
+
+    .hero-subtitle{
+
+        font-size:15px;
+
+    }
+
+}
+
+
+/* ===========================================================
+   END
+=========================================================== */
