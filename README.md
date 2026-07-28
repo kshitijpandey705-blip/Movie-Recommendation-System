@@ -103,10 +103,8 @@ Add personalized recommendations
 Kshitij Pandey
 
 GitHub:
-(YOUR GITHUB PROFILE LINK)
+(https://github.com/kshitijpandey705-blip)
 
 LinkedIn:
-(YOUR LINKEDIN PROFILE LINK)
+(https://www.linkedin.com/in/kshitij-pandey-976a05299?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
-(YOUR GITHUB PROFILE LINK)
-(YOUR LINKEDIN PROFILE LINK)
