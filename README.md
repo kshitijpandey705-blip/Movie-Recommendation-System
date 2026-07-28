@@ -9,7 +9,7 @@ This project uses **Content-Based Filtering** with **Cosine Similarity** and pro
 ## 🚀 Live Demo
 
 🔗 Streamlit App:
-(YOUR STREAMLIT APP LINK)
+(https://movie-recommendation-system-jtrkehm6jqye8gajkq4tf8.streamlit.app/)
 
 ---
 
